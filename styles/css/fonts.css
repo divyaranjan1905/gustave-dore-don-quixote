@@ -1,0 +1,1014 @@
+@charset "UTF-8";
+
+/* Fonts */
+
+/* ET Book (Edward Tufte's version of Bembo) */
+
+@font-face {
+    font-family: "et-book";
+    src: url("../et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot");
+    src: url("../et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot?#iefix") format("embedded-opentype"), url("../et-book/et-book-roman-line-figures/et-book-roman-line-figures.woff") format("woff"), url("../et-book/et-book-roman-line-figures/et-book-roman-line-figures.ttf") format("truetype"), url("../et-book/et-book-roman-line-figures/et-book-roman-line-figures.svg#etbookromanosf") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "et-book";
+    src: url("../et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot");
+    src: url("../et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot?#iefix") format("embedded-opentype"), url("../et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff") format("woff"), url("../et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.ttf") format("truetype"), url("../et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.svg#etbookromanosf") format("svg");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "et-book";
+    src: url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot");
+    src: url("../et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot?#iefix") format("embedded-opentype"), url("../et-book/et-book-bold-line-figures/et-book-bold-line-figures.woff") format("woff"), url("../et-book/et-book-bold-line-figures/et-book-bold-line-figures.ttf") format("truetype"), url("../et-book/et-book-bold-line-figures/et-book-bold-line-figures.svg#etbookromanosf") format("svg");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "et-book-roman-old-style";
+    src: url("../et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot");
+    src: url("../et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot?#iefix") format("embedded-opentype"), url("../et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.woff") format("woff"), url("../et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.ttf") format("truetype"), url("../et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.svg#etbookromanosf") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Charter Font */
+
+@font-face {
+    font-family: "Charter";
+    src: url("../fonts/charter/charter/charter_regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Charter";
+    src: url("../fonts/charter/charter_italic.woff2") format("woff2");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Charter";
+    src: url("../fonts/charter/charter_bold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Charter";
+    src: url("../fonts/charter/charter_bold_italic.woff2") format("woff2");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Cardo Font */
+
+@font-face {
+    font-family: "Cardo";
+    src: url("../fonts/cardo/Cardo-Regular.ttf") format("ttf");
+    font-weight: normal ;
+    font-style: normal ;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Cardo";
+    src: url("../fonts/cardo/Cardo-Bold.ttf") format("ttf");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Cardo";
+    src: url("../fonts/cardo/Cardo-Italic.ttf") format("ttf");
+    font-weight: normal ;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+/* Garamond-Libre */
+
+@font-face {
+    font-family: 'Garamond Libre';
+    src: url('../fonts/garamond-libre/GaramondLibre-Bold.otf') format('opentype');
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Garamond Libre';
+    src: url('../fonts/garamond-libre/GaramondLibre-BoldItalic.otf') format('opentype');
+    font-weight: 700; /* Bold Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Garamond Libre';
+    src: url('../fonts/garamond-libre/GaramondLibre-Italic.otf') format('opentype');
+    font-weight: 400; /* Regular Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Garamond Libre';
+    src: url('../fonts/garamond-libre/GaramondLibre-Regular.otf') format('opentype');
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+/* EB-Garamond */
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../fonts/eb-garamond/EBGaramond-Initials.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../fonts/eb-garamond/EBGaramond-InitialsF1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../fonts/eb-garamond/EBGaramond-InitialsF2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../fonts/eb-garamond/EBGaramond08-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../fonts/eb-garamond/EBGaramond08-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../fonts/eb-garamond/EBGaramond12-AllSC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../fonts/eb-garamond/EBGaramond12-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../fonts/eb-garamond/EBGaramond12-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../fonts/eb-garamond/EBGaramondSC08-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('../fonts/eb-garamond/EBGaramondSC12-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Alegraya */
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../fonts/alegreya/static/Alegreya-Black.ttf') format('truetype');
+    font-weight: 900; /* Black */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../fonts/alegreya/static/Alegreya-BlackItalic.ttf') format('truetype');
+    font-weight: 900; /* Black Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../fonts/alegreya/static/Alegreya-Bold.ttf') format('truetype');
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../fonts/alegreya/static/Alegreya-BoldItalic.ttf') format('truetype');
+    font-weight: 700; /* Bold Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../fonts/alegreya/static/Alegreya-ExtraBold.ttf') format('truetype');
+    font-weight: 800; /* Extra Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../fonts/alegreya/static/Alegreya-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800; /* Extra Bold Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../fonts/alegreya/static/Alegreya-Italic.ttf') format('truetype');
+    font-weight: 400; /* Regular Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../fonts/alegreya/static/Alegreya-Medium.ttf') format('truetype');
+    font-weight: 500; /* Medium */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../fonts/alegreya/static/Alegreya-MediumItalic.ttf') format('truetype');
+    font-weight: 500; /* Medium Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../fonts/alegreya/static/Alegreya-Regular.ttf') format('truetype');
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../fonts/alegreya/static/Alegreya-SemiBold.ttf') format('truetype');
+    font-weight: 600; /* SemiBold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../fonts/alegreya/static/Alegreya-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600; /* SemiBold Italic */
+    font-style: italic;
+}
+
+/* Ibarra Real Nova */
+
+@font-face {
+    font-family: 'Ibarra Real Nova';
+    src: url('../fonts/ibarra-real-nova/static/IbarraRealNova-Bold.ttf') format('truetype');
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ibarra Real Nova';
+    src: url('../fonts/ibarra-real-nova/static/IbarraRealNova-BoldItalic.ttf') format('truetype');
+    font-weight: 700; /* Bold Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ibarra Real Nova';
+    src: url('../fonts/ibarra-real-nova/static/IbarraRealNova-Italic.ttf') format('truetype');
+    font-weight: 400; /* Regular Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ibarra Real Nova';
+    src: url('../fonts/ibarra-real-nova/static/IbarraRealNova-Medium.ttf') format('truetype');
+    font-weight: 500; /* Medium */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ibarra Real Nova';
+    src: url('../fonts/ibarra-real-nova/static/IbarraRealNova-MediumItalic.ttf') format('truetype');
+    font-weight: 500; /* Medium Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ibarra Real Nova';
+    src: url('../fonts/ibarra-real-nova/static/IbarraRealNova-Regular.ttf') format('truetype');
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ibarra Real Nova';
+    src: url('../fonts/ibarra-real-nova/static/IbarraRealNova-SemiBold.ttf') format('truetype');
+    font-weight: 600; /* SemiBold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ibarra Real Nova';
+    src: url('../fonts/ibarra-real-nova/static/IbarraRealNova-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600; /* SemiBold Italic */
+    font-style: italic;
+}
+
+
+/* Literata */
+
+/* Literata Regular Variants */
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata-Black.ttf') format('truetype');
+    font-weight: 900; /* Black */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata-BlackItalic.ttf') format('truetype');
+    font-weight: 900; /* Black Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata-Bold.ttf') format('truetype');
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata-BoldItalic.ttf') format('truetype');
+    font-weight: 700; /* Bold Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata-ExtraBold.ttf') format('truetype');
+    font-weight: 800; /* Extra Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800; /* Extra Bold Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata-ExtraLight.ttf') format('truetype');
+    font-weight: 200; /* Extra Light */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200; /* Extra Light Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata-Italic.ttf') format('truetype');
+    font-weight: 400; /* Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata-Light.ttf') format('truetype');
+    font-weight: 300; /* Light */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata-LightItalic.ttf') format('truetype');
+    font-weight: 300; /* Light Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata-Medium.ttf') format('truetype');
+    font-weight: 500; /* Medium */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata-MediumItalic.ttf') format('truetype');
+    font-weight: 500; /* Medium Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata-Regular.ttf') format('truetype');
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata-SemiBold.ttf') format('truetype');
+    font-weight: 600; /* Semi Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600; /* Semi Bold Italic */
+    font-style: italic;
+}
+
+/* Literata 18pt Variants */
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_18pt-Black.ttf') format('truetype');
+    font-weight: 900; /* Black */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_18pt-BlackItalic.ttf') format('truetype');
+    font-weight: 900; /* Black Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_18pt-Bold.ttf') format('truetype');
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_18pt-BoldItalic.ttf') format('truetype');
+    font-weight: 700; /* Bold Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_18pt-ExtraBold.ttf') format('truetype');
+    font-weight: 800; /* Extra Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_18pt-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800; /* Extra Bold Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_18pt-ExtraLight.ttf') format('truetype');
+    font-weight: 200; /* Extra Light */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_18pt-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200; /* Extra Light Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_18pt-Italic.ttf') format('truetype');
+    font-weight: 400; /* Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_18pt-Light.ttf') format('truetype');
+    font-weight: 300; /* Light */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_18pt-LightItalic.ttf') format('truetype');
+    font-weight: 300; /* Light Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_18pt-Medium.ttf') format('truetype');
+    font-weight: 500; /* Medium */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_18pt-MediumItalic.ttf') format('truetype');
+    font-weight: 500; /* Medium Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_18pt-Regular.ttf') format('truetype');
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_18pt-SemiBold.ttf') format('truetype');
+    font-weight: 600; /* Semi Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_18pt-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600; /* Semi Bold Italic */
+    font-style: italic;
+}
+
+/* Literata 24pt Variants */
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_24pt-Black.ttf') format('truetype');
+    font-weight: 900; /* Black */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_24pt-BlackItalic.ttf') format('truetype');
+    font-weight: 900; /* Black Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_24pt-Bold.ttf') format('truetype');
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_24pt-BoldItalic.ttf') format('truetype');
+    font-weight: 700; /* Bold Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_24pt-ExtraBold.ttf') format('truetype');
+    font-weight: 800; /* Extra Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_24pt-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800; /* Extra Bold Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_24pt-ExtraLight.ttf') format('truetype');
+    font-weight: 200; /* Extra Light */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_24pt-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200; /* Extra Light Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_24pt-Italic.ttf') format('truetype');
+    font-weight: 400; /* Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_24pt-Light.ttf') format('truetype');
+    font-weight: 300; /* Light */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_24pt-LightItalic.ttf') format('truetype');
+    font-weight: 300; /* Light Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_24pt-Medium.ttf') format('truetype');
+    font-weight: 500; /* Medium */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_24pt-MediumItalic.ttf') format('truetype');
+    font-weight: 500; /* Medium Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_24pt-Regular.ttf') format('truetype');
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_24pt-SemiBold.ttf') format('truetype');
+    font-weight: 600; /* Semi Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_24pt-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600; /* Semi Bold Italic */
+    font-style: italic;
+}
+
+/* Literata 36pt Variants */
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_36pt-Black.ttf') format('truetype');
+    font-weight: 900; /* Black */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_36pt-BlackItalic.ttf') format('truetype');
+    font-weight: 900; /* Black Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_36pt-Bold.ttf') format('truetype');
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_36pt-BoldItalic.ttf') format('truetype');
+    font-weight: 700; /* Bold Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_36pt-ExtraBold.ttf') format('truetype');
+    font-weight: 800; /* Extra Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_36pt-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800; /* Extra Bold Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_36pt-ExtraLight.ttf') format('truetype');
+    font-weight: 200; /* Extra Light */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_36pt-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200; /* Extra Light Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_36pt-Italic.ttf') format('truetype');
+    font-weight: 400; /* Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_36pt-Light.ttf') format('truetype');
+    font-weight: 300; /* Light */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_36pt-LightItalic.ttf') format('truetype');
+    font-weight: 300; /* Light Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_36pt-Medium.ttf') format('truetype');
+    font-weight: 500; /* Medium */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_36pt-MediumItalic.ttf') format('truetype');
+    font-weight: 500; /* Medium Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_36pt-Regular.ttf') format('truetype');
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_36pt-SemiBold.ttf') format('truetype');
+    font-weight: 600; /* Semi Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_36pt-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600; /* Semi Bold Italic */
+    font-style: italic;
+}
+
+/* Literata 60pt Variants */
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_60pt-Black.ttf') format('truetype');
+    font-weight: 900; /* Black */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_60pt-BlackItalic.ttf') format('truetype');
+    font-weight: 900; /* Black Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_60pt-Bold.ttf') format('truetype');
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_60pt-BoldItalic.ttf') format('truetype');
+    font-weight: 700; /* Bold Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_60pt-ExtraBold.ttf') format('truetype');
+    font-weight: 800; /* Extra Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_60pt-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800; /* Extra Bold Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_60pt-ExtraLight.ttf') format('truetype');
+    font-weight: 200; /* Extra Light */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_60pt-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200; /* Extra Light Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_60pt-Italic.ttf') format('truetype');
+    font-weight: 400; /* Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_60pt-Light.ttf') format('truetype');
+    font-weight: 300; /* Light */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_60pt-LightItalic.ttf') format('truetype');
+    font-weight: 300; /* Light Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_60pt-Medium.ttf') format('truetype');
+    font-weight: 500; /* Medium */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_60pt-MediumItalic.ttf') format('truetype');
+    font-weight: 500; /* Medium Italic */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_60pt-Regular.ttf') format('truetype');
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_60pt-SemiBold.ttf') format('truetype');
+    font-weight: 600; /* Semi Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Literata';
+    src: url('../fonts/literata/static/Literata_60pt-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600; /* Semi Bold Italic */
+    font-style: italic;
+}
+
+
+/* Utopia */
+
+@font-face {
+    font-family: 'Utopia';
+    src: url('../fonts/utopia/Utopia-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Utopia';
+    src: url('../fonts/utopia/Utopia-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Utopia';
+    src: url('../fonts/utopia/Utopia-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Utopia';
+    src: url('../fonts/utopia/Utopia-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+/* Grenze Gotisch */
+
+@font-face {
+    font-family: 'Grenze Gotisch';
+    src: url('../fonts/grenze-gotisch/static/GrenzeGotisch-Black.ttf') format('truetype');
+    font-weight: 900; /* Black */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Grenze Gotisch';
+    src: url('../fonts/grenze-gotisch/static/GrenzeGotisch-Bold.ttf') format('truetype');
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Grenze Gotisch';
+    src: url('../fonts/grenze-gotisch/static/GrenzeGotisch-ExtraBold.ttf') format('truetype');
+    font-weight: 800; /* ExtraBold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Grenze Gotisch';
+    src: url('../fonts/grenze-gotisch/static/GrenzeGotisch-ExtraLight.ttf') format('truetype');
+    font-weight: 200; /* ExtraLight */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Grenze Gotisch';
+    src: url('../fonts/grenze-gotisch/static/GrenzeGotisch-Light.ttf') format('truetype');
+    font-weight: 300; /* Light */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Grenze Gotisch';
+    src: url('../fonts/grenze-gotisch/static/GrenzeGotisch-Medium.ttf') format('truetype');
+    font-weight: 500; /* Medium */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Grenze Gotisch';
+    src: url('../fonts/grenze-gotisch/static/GrenzeGotisch-Regular.ttf') format('truetype');
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Grenze Gotisch';
+    src: url('../fonts/grenze-gotisch/static/GrenzeGotisch-SemiBold.ttf') format('truetype');
+    font-weight: 600; /* SemiBold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Grenze Gotisch';
+    src: url('../fonts/grenze-gotisch/static/GrenzeGotisch-Thin.ttf') format('truetype');
+    font-weight: 100; /* Thin */
+    font-style: normal;
+}

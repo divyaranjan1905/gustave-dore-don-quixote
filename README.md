@@ -39,3 +39,7 @@ Making entire books as websites has always been interesting to me, provided they
 ## Licensing
 
 All of the code in this repository is licensed under GPLv3 or above. The copy of Don Quixote itself is in public domain, and our new rendition of it shall be accessible digitally and in print under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). This ensures free usage of the material, both the code and the finally produced book, for commercial and non-commercial uses as long as the required credit has been provided and the adaptations are also shared under the same license.
+
+### Fonts
+
+All the fonts that are used for the project, whether in web or in produced PDFs, are libre fonts licensed under OpenFontLicense or something similar. Check the directory of each font under `fonts/` to find the license copy for each of them respectively.

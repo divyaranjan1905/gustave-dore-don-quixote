@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+/* CSS for the front page */
+
+/* Importing Fonts */
+@import url('fonts.css');
+
+html {
+    font-size: 70px;
+}
+
+
+body {
+    font-family: et-book, Charter;
+    width: 100%;
+    text-align: center;
+    /* margin-right: auto; */
+    color: #ffffff;
+    background-color: #bfa58a;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    /* padding: 10px; */
+}
+
+.cover {
+    width: 100%;
+    /* padding: 50px; */
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    padding: 50px 0;
+}
+
+.cover-bg{
+    /* background-size: 1920px; */
+    /* background-image: url("../../img/paintings/cesare-detti-don-quixote.jpg"); */
+    background-image: url("../../img/paintings/Malczewski-don-quixote.jpg");
+    /* background-image: url("../../img/paintings/marstrand-01.jpg"); */
+    /* background-image: url("../../img/paintings/carbonero-panza-meets-donkey.jpg"); */
+    /* background-image: url("../../img/p66b.jpg"); */
+    /* background-image: url("../../img/p008.jpg"); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.cover-overlay {
+    font-family: et-book;
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    left: 14%;
+    color: whitesmoke;
+}
+
+.cover-overlay h1 {
+    color: antiquewhite;
+    font-family: Literata;
+    font-size: 3.0em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.cover-overlay h2 {
+    font-family: Literata;
+    font-size: 3.25em;
+}
+
+.cover-overlay .subtitle {
+    color: antiquewhite;
+    font-family: Literata;
+    font-size: 0.75em;
+    text-align: center;
+    display: block;
+
+}

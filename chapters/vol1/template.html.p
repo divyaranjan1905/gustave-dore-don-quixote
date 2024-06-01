@@ -4,9 +4,9 @@
     <meta charset="utf-8"/>
     <title>◊(hash-ref metas 'title)</title>
     ◊; To use paths a bit smoothly
-    ◊(define path-prefix (if (string-contains (symbol->string here) "/") "../../" ""))
+    ◊;(define path-prefix (if (string-contains (symbol->string here) "/") "../../../styles/" ""))
 
-    <link rel="stylesheet" type="text/css" href="◊|path-prefix|css/tufte.css"/>
+    <link rel="stylesheet" type="text/css" href="../../../styles/css/tufte.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 

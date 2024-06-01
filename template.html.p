@@ -4,17 +4,19 @@
     <meta charset="utf-8"/>
     <title>◊(hash-ref metas 'title)</title>
 
-    <link rel="stylesheet" type="text/css" href="css/tufte.css"/>
+    <link rel="stylesheet" type="text/css" href="../styles/css/front.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
-  <body>◊(->html doc #:splice? #t)
-    ◊(define prev-page (previous here))
-    ◊when/splice[prev-page]{
-    <div id="prev">← <a href="◊|prev-page|">◊(select 'h1 prev-page)</a></div>}
-    ◊(define next-page (next here))
-    ◊when/splice[next-page]{
-    <div id="next"><a href="◊|next-page|">◊(select 'h1 next-page)</a> →</div>}
+  <body>
+    ◊(->html doc)
+    <!-- ◊(->html doc #:splice? #t) -->
+    <!-- ◊(define prev-page (previous here)) -->
+    <!-- ◊when/splice[prev-page]{ -->
+    <!-- <div id="prev">← <a href="◊|prev-page|">◊(select 'h1 prev-page)</a></div>} -->
+    <!-- ◊(define next-page (next here)) -->
+    <!-- ◊when/splice[next-page]{ -->
+    <!-- <div id="next"><a href="◊|next-page|">◊(select 'h1 next-page)</a> →</div>} -->
 
   </body>
 </html>
