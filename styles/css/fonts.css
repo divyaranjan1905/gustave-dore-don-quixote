@@ -24,7 +24,7 @@
 
 @font-face {
     font-family: "et-book";
-    src: url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot");
+    src: url("../et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot");
     src: url("../et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot?#iefix") format("embedded-opentype"), url("../et-book/et-book-bold-line-figures/et-book-bold-line-figures.woff") format("woff"), url("../et-book/et-book-bold-line-figures/et-book-bold-line-figures.ttf") format("truetype"), url("../et-book/et-book-bold-line-figures/et-book-bold-line-figures.svg#etbookromanosf") format("svg");
     font-weight: bold;
     font-style: normal;
@@ -44,7 +44,7 @@
 
 @font-face {
     font-family: "Charter";
-    src: url("../fonts/charter/charter/charter_regular.woff2") format("woff2");
+    src: url("../fonts/charter/charter_regular.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -134,7 +134,7 @@
 /* EB-Garamond */
 
 @font-face {
-    font-family: 'EB Garamond';
+    font-family: 'EB Garamond Iniials';
     src: url('../fonts/eb-garamond/EBGaramond-Initials.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -169,7 +169,7 @@
 }
 
 @font-face {
-    font-family: 'EB Garamond';
+    font-family: 'EB Garamond SC';
     src: url('../fonts/eb-garamond/EBGaramond12-AllSC.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -1011,4 +1011,60 @@
     src: url('../fonts/grenze-gotisch/static/GrenzeGotisch-Thin.ttf') format('truetype');
     font-weight: 100; /* Thin */
     font-style: normal;
+}
+
+/* Elstob */
+
+@font-face {
+    font-family:  'Elstob';
+    src: url('../fonts/elstob/Elstob.woff2') format('woff2');
+    font-weight: normal;
+    font-style: regular;
+}
+
+@font-face {
+    font-family:  'Elstob';
+    src: url('../fonts/elstob/Elstob-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+/* Modern Antiqua */
+
+@font-face {
+    font-family:  'Modern Antiqua';
+    src: url('../fonts/modern-antiqua/ModernAntiqua.ttf') format('truetype');
+    font-weight: normal;
+    font-style: regular;
+}
+
+/* Old Standard */
+
+@font-face {
+    font-family:  'Old Standard';
+    src: url('../fonts/oldstandard/otf/OldStandard-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: regular;
+}
+
+@font-face {
+    font-family:  'Old Standard';
+    src: url('../fonts/oldstandard/otf/OldStandard-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: regular;
+}
+
+@font-face {
+    font-family:  'Old Standard';
+    src: url('../fonts/oldstandard/otf/OldStandard-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family:  'Old Standard';
+    src: url('../fonts/oldstandard/otf/OldStandard-BoldItalic.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
 }

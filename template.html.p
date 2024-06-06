@@ -10,13 +10,15 @@
 
   <body>
     ◊(->html doc)
-    <!-- ◊(->html doc #:splice? #t) -->
-    <!-- ◊(define prev-page (previous here)) -->
-    <!-- ◊when/splice[prev-page]{ -->
-    <!-- <div id="prev">← <a href="◊|prev-page|">◊(select 'h1 prev-page)</a></div>} -->
-    <!-- ◊(define next-page (next here)) -->
-    <!-- ◊when/splice[next-page]{ -->
-    <!-- <div id="next"><a href="◊|next-page|">◊(select 'h1 next-page)</a> →</div>} -->
-
+    <nav class="navbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">DON QUIXOTE</li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <span class="link-text">Foreword</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
   </body>
 </html>

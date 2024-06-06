@@ -2,6 +2,8 @@
 
 (require pollen/decode
          pollen/setup
+         ;; pollen/html
+         pollen/tag
          txexpr)
 
 (provide root)
@@ -38,7 +40,17 @@ https://docs.racket-lang.org/pollen/third-tutorial.html#(part._.Decoding_markup_
                                    #:exclude-tags '(script style)))]))
 
 #|
-Handle $,% and # properly
+Function for links
+|#
+(define (link url text) `(a ((href ,url)) ,text))
+
+#| Functions for lists |#
+(define items (default-tag-function 'ul))
+(define item (default-tag-function 'li 'p))
+
+
+#|
+Handle $,% and # properly		; ; ; ; ; ;
 |#
 (define (ltx-escape-str str)
   (regexp-replace* #px"([$#%&])" str "\\\\\\1"))

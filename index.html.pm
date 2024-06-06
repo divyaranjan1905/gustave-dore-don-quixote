@@ -1,10 +1,11 @@
 #lang pollen
 
 ◊(define-meta title "Don Quixote")
-◊(define-meta author "Miguel de Cervantes")
+◊(define-meta author "Miguel de Cervantes Saavedra")
 
 ◊main{◊div[#:class "cover"]{
 		       ◊div[#:class "cover-bg"]{}
 		       ◊div[#:class "cover-overlay"]{
-							◊h1{◊b{D}on ◊b{Q}uixote}
-		       		    			◊span[#:class "subtitle"]{◊i{With Illustrations from} Doré, Marstrand, ◊i{and} Detti}}}}
+							◊p{◊i{The Ingenious Gentleman,}}
+							◊h1{◊span[#:class "initials"]{D}ON ◊span[#:class "initials"]{Q}UIXOTE}
+		       		    			◊span[#:class "subtitle"]{◊i{◊b{Of}} ◊br{} ◊i{◊b{La Mancha}}}}}}
