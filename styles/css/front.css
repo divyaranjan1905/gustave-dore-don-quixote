@@ -119,7 +119,8 @@ body.front {
     padding-right: 95px;
 }
 
-.cover .read-btn:hover {
+.cover .read-btn:hover,
+.read-btn:focus {
     background-color: rgba(46,41,41,1) ;
     transition: 0.2s;
     border-color: #FFE5B4;
@@ -127,13 +128,9 @@ body.front {
     border-style: solid;
 }
 
-.cover .read-btn:focus {
-    background-color: rgba(46,41,41,1) ;
-    outline-color: transparent;
-    transition: 0.3s;
-    border-color: #FFE5B4;
-    border-width: 3.5px;
-    border-style: solid;
+.read-btn .link {
+    text-decoration: none;
+    color: #FFE5B4;
 }
 
 .gustave-dore {

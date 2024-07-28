@@ -3,3 +3,83 @@
 /* CSS files for Table of Contents */
 
 @import url('fonts.css');
+
+html {
+    font-size: 70px;
+}
+
+body.toc {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 5%;
+    font-family: EB Garamond;
+    /* font-size: 2.5em; */
+    color: rgba(46,41,41,0.8804);;
+    max-width: 95%;
+    text-align: center;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.volume-container {
+    /* margin-top: 6.5%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+.volume-container .cover {
+    width: 750px;
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+}
+
+.volume-container .separator {
+    width: 10px;
+    height: 900px;
+    background-color: rgba(46,41,41,0.7004);
+}
+
+.volumesbtn {
+    position: relative;
+    background-color: rgba(46,41,41,0.7004);
+    font-family: EB Garamond;
+    font-size: 1.05em;
+    align-content: center;
+    color: #FFE5B4;
+    border: none;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    padding-left: 95px;
+    padding-right: 95px;
+
+}
+
+.volumesbtn:hover,
+.volumesbtn:focus {
+    background-color: rgba(46,41,41,1) ;
+    transition: 0.15s;
+    border-color: #FFE5B4;
+    border-width: 3.5px;
+    border-style: solid;
+
+}
+
+.volumesbtn-left {
+    top: 85%;
+    right: 59%;
+    position: absolute;
+}
+
+.volumesbtn-right {
+    top: 85%;
+    right: 15%;
+    position: absolute;
+}
