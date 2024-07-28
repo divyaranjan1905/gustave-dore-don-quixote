@@ -26,6 +26,7 @@ Making entire books as websites has always been interesting to me, provided they
 
 - Richard Rutter's [_Web Typography_](https://book.webtypography.net/)
 - Robert Bringhurt's [_The Elements of Typographic Style_](https://typographica.org/typography-books/the-elements-of-typographic-style-4th-edition/)
+- Robin Sloan's [_Annabel Scheme_](https://www.robinsloan.com/books/annabel-scheme-serial/read/)
 - Glenn Elert's [_Hypertexbook_](https://hypertextbook.com/)
 - Dan & Joseph's [_Interactive Linear Algebra_](https://textbooks.math.gatech.edu/ila/)
 - [The Stacks Project](https://stacks.math.columbia.edu/)
