@@ -8,4 +8,4 @@
 		       ◊div[#:class "cover-overlay"]{
 							◊p{◊i{The Ingenious Gentleman,}}
 							◊h1{◊span[#:class "initials"]{D}ON ◊span[#:class "initials"]{Q}UIXOTE}
-		       		    			◊span[#:class "subtitle"]{◊i{◊b{Of}} ◊br{} ◊i{◊b{La Mancha}}}}}}
+		       		    			◊span[#:class "subtitle"]{◊i{Of} ◊i{La Mancha}}}}}

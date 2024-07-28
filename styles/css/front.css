@@ -61,7 +61,7 @@ body {
 }
 
 .cover-overlay h1 {
-    color: black;
+    color: #E2DFD2;
     font-family: EB Garamond SC;
     font-size: 2.5em;
     /* top: 45%; */
@@ -79,6 +79,7 @@ body {
     font-family: Elstob;
     color: black;
     text-align: left;
+    margin-left: 80px;
 
 }
 .cover-overlay .subtitle {
@@ -165,6 +166,7 @@ body {
 	font-size: 1.25em;
 	color: antiquewhite;
 	text-align: center;
+	margin-left: 10px;
     }
 
     .cover-overlay h1 {
