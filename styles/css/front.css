@@ -61,9 +61,9 @@ body {
 }
 
 .cover-overlay h1 {
-    color: #E2DFD2;
+    color: antiquewhite;
     font-family: EB Garamond SC;
-    font-size: 2.5em;
+    font-size: 2.75em;
     /* top: 45%; */
     margin-bottom: 10px;
     text-align: center;
@@ -139,6 +139,50 @@ body {
     font-size: 0.5rem;
 }
 
+.read-btn {
+    position: absolute;
+    top: 74%;
+    right: 42.5%;
+    bottom: 13%;
+    /* margin-left: 5%; */
+    /* margin-right: 15%; */
+    /* left: 50%; */
+    /* right: 50%; */
+    background-color: rgba(46,41,41,0.8804);
+    /* font-family: et-book; */
+    font-family: EB Garamond;
+    /* font-family: Garamond Libre; */
+    /* font-family: et-book; */
+    /* font-family: et-book; */
+    font-size: 0.75em;
+    align-content: center;
+    color: #FFE5B4;
+    border: none;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    padding-left: 95px;
+    padding-right: 95px;
+    /* min-width: 220px; */
+    /* min-height: 55px; */
+}
+
+.read-btn:hover {
+    background-color: rgba(46,41,41,1) ;
+    transition: 0.2s;
+    border-color: #FFE5B4;
+    border-width: 3.5px;
+    border-style: solid;
+}
+
+.read-btn:focus {
+    background-color: rgba(46,41,41,1) ;
+    outline-color: transparent;
+    transition: 0.3s;
+    border-color: #FFE5B4;
+    border-width: 3.5px;
+    border-style: solid;
+}
+
 /* For Small Screens */
 @media only screen and (min-width: 300px) and (max-width: 990px) {
 
@@ -164,7 +208,7 @@ body {
 
     .cover-overlay p {
 	font-size: 1.25em;
-	color: antiquewhite;
+	color: black;
 	text-align: center;
 	margin-left: 10px;
     }
@@ -175,7 +219,7 @@ body {
 	text-align: center;
     }
     .cover-overlay .subtitle {
-	color: antiquewhite;
+	color: black;
 	font-family: Elstob;
 	font-size: 1.25em;
 	text-align: center;
