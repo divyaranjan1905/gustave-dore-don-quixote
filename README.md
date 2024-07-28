@@ -6,7 +6,7 @@ This project is an attempt to republish Don Quixote with illustrations by Gustav
 
 The book would be published both as a readable webpage (a web-book), Kindle-ready EPUB3 and as a printable PDF.  The goal is to achieve good typography in all the aforementioned formats without having to do extra work in porting, and this is achieved by means of using a markup-language by Matthew Butterick, called [Pollen](https://docs.racket-lang.org/pollen/). It is rather a DSL (Domain-Specific Language) based on Racket, which allows you to introduce programmable capacity into your text without having to deal with any overhead. One can access all of Racket, while still writing HTML, Markdown, or TeX as one likes.
 
-The particular translation we would be using is the John Ormsby translation that is under public domain at the [Project Gutenberg](https://www.gutenberg.org/ebooks/996). The illustrations in the `image/` directory are also extracted from the same source.
+The particular translation we would be using is the John Ormsby translation that is under public domain at the [Project Gutenberg](https://www.gutenberg.org/ebooks/996). The illustrations in the `img/` directory are also extracted from the same source.
 
 ## Goals
 The goals of this project are the following:
