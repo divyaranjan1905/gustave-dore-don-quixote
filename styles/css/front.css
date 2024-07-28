@@ -54,7 +54,6 @@ body {
     position: absolute;
     text-align: center;
     top: 12%;
-    /* left: 20%; */
     width: 100%;
     margin: 25px auto;
     color: black;
@@ -62,20 +61,16 @@ body {
 
 .cover-overlay h1 {
     color: antiquewhite;
-    /* font-family: EB Garamond SC; */
     font-family: et-book;
     font-size: 2.25em;
-    /* top: 45%; */
     margin-bottom: 15px;
     text-align: center;
 }
 
 .cover-overlay h1:hover {
     color: #FFE5B4;
-    /* font-family: EB Garamond SC; */
     font-family: et-book;
     font-size: 2.25em;
-    /* top: 45%; */
     margin-bottom: 15px;
     text-align: center;
 }
@@ -98,7 +93,6 @@ body {
     font-family: Elstob;
     font-size: 1.15em;
     text-align: right;
-    /* margin-left: 35px; */
     margin-right: 75px;
     display: block;
 
@@ -107,8 +101,6 @@ body {
 .initials {
     font-family: 'Ibarra Real Nova';
     font-size: 1.45em;
-    /* font-family: 'Garamond Libre'; */
-
 }
 
 /* Navigaiton Bar */
@@ -158,16 +150,8 @@ body {
     top: 74%;
     right: 42%;
     bottom: 13%;
-    /* margin-left: 5%; */
-    /* margin-right: 15%; */
-    /* left: 50%; */
-    /* right: 50%; */
     background-color: rgba(46,41,41,0.8804);
-    /* font-family: et-book; */
     font-family: EB Garamond;
-    /* font-family: Garamond Libre; */
-    /* font-family: et-book; */
-    /* font-family: et-book; */
     font-size: 0.75em;
     align-content: center;
     color: #FFE5B4;
@@ -176,8 +160,6 @@ body {
     padding-bottom: 27px;
     padding-left: 95px;
     padding-right: 95px;
-    /* min-width: 220px; */
-    /* min-height: 55px; */
 }
 
 .read-btn:hover {
@@ -211,7 +193,6 @@ body {
     .cover {
 	width: 100%;
 	height: 65vh;
-	/* padding: 135px 0; */
     }
 
     .cover-overlay {

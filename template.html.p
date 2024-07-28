@@ -12,7 +12,7 @@
     ◊(->html doc)
     <nav class="navbar">
       <ul class="navbar-nav">
-        <li class="nav-item">DON QUIXOTE</li>
+	<li class="nav-item"><img src="img/extras/logo.png"></li>
         <li class="nav-item">
           <a href="#" class="nav-link">
             <span class="link-text">Foreword</span>
