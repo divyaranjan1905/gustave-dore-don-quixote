@@ -1,8 +1,7 @@
 # Gustave Doré's Illustrated _Don Quixote_
 --------------------------------------------
 
-<img/extras/web.png>
-
+![Frontpage of the web version](img/extras/web.png)
 
 ## The Idea of the Project
 This project is an attempt to republish Don Quixote with illustrations by Gustave Doré with good typography.
