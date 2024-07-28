@@ -11,12 +11,12 @@
 					◊p{◊i{The Ingenious Gentleman,}}
 					◊h1{◊span[#:class "initials"]{D}ON ◊span[#:class "initials"]{Q}UIXOTE}
 		       		    	◊span[#:class "subtitle"]{◊i{Of} ◊i{La Mancha}}}
-
-					◊button[#:type "button" #:class "read-btn"]{Read}}
+					◊a[#:href "./chapters/toc.html" #:class "link"]{
+					◊button[#:type "button" #:class "read-btn"]{Read}}}
 
 	◊div[#:class "gustave-dore"]{
 			 ◊div[#:class "cover"]{
-			 	      ◊img[#:src "img/cover.jpg" #:class "img"]{}}
+			 ◊img[#:src "img/cover.jpg" #:class "img"]{}}
 
 			 ◊h2{Reviving ◊i{Don Quixote}}
 
