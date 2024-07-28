@@ -134,21 +134,21 @@
 /* EB-Garamond */
 
 @font-face {
-    font-family: 'EB Garamond Iniials';
+    font-family: 'EB Garamond Initials';
     src: url('../fonts/eb-garamond/EBGaramond-Initials.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'EB Garamond';
+    font-family: 'EB Garamond Initials F1';
     src: url('../fonts/eb-garamond/EBGaramond-InitialsF1.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'EB Garamond';
+    font-family: 'EB Garamond Initials F2';
     src: url('../fonts/eb-garamond/EBGaramond-InitialsF2.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
