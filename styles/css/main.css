@@ -3,12 +3,82 @@
 /* All the CSS files must be imported */
 
 @import url('fonts.css');
-@import url('front.css');
-@import url('tufte.css');
-@import url('epub.css');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box
+}
+
+main {
+    margin-top: 0.85rem;
+}
+
+body {
+    font-family: et-book;
+    color: #ffffff;
+    background-color: antiquewhite;
+}
+
+html::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+.container {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Navigaiton Bar */
+
+.navbar {
+    position: absolute;
+    background: rgba(46,41,41,0.9804);
+    height: 0.85rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: height 400ms ease;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-item {
+    width: 100%;
+    margin-right: 1rem;
+    font-size: 0.5rem;
+}
+
+.nav-item:last-child {
+    margin-right: auto;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.link-text {
+    display: inline;
+    font-size: 0.5rem;
+}
+
+/* Responsive */
+
+@media only screen and (min-width: 300px) and (max-width: 990px) {
+    html {
+	font-size: 25px;
+    }
+
+    main {
+	margin-top: 2.5rem;
+    }
 }

@@ -2,26 +2,22 @@
 
 /* CSS for the front page */
 
-@import url('main.css'); /* Importing Base CSS */
 @import url('fonts.css'); /* Importing Fonts */
-
 
 html {
     font-size: 70px;
 }
 
-main {
-    margin-top: 0.85rem;
-}
-
-body {
-    font-family: et-book, Charter;
+body.front {
+    font-family: et-book;
     width: 100%;
+    font-size: 70px;
     text-align: center;
     /* margin-right: auto; */
     color: #ffffff;
-    background-color: #bfa58a;
+    background-color: antiquewhite;
 }
+
 
 .cover {
     width: 100%;
@@ -32,7 +28,7 @@ body {
     /* padding: 100px 0; */
 }
 
-.cover-bg{
+.cover-bg {
     /* background-size: 1920px; */
     /* background-image: url("../../img/paintings/cesare-detti-don-quixote.jpg"); */
     background-image: url("../../img/paintings/Malczewski-don-quixote.jpg");
@@ -67,6 +63,7 @@ body {
     text-align: center;
 }
 
+/* Creates Hovering Effect on Cover's Title */
 .cover-overlay h1:hover {
     color: #FFE5B4;
     font-family: et-book;
@@ -74,7 +71,6 @@ body {
     margin-bottom: 15px;
     text-align: center;
 }
-
 
 .cover-overlay h2 {
     font-family: Elstob;
@@ -88,6 +84,7 @@ body {
     margin-left: 75px;
     font-size: 1.15em;
 }
+
 .cover-overlay .subtitle {
     color: black;
     font-family: Elstob;
@@ -98,54 +95,14 @@ body {
 
 }
 
-.initials {
+.cover-overlay .initials {
     font-family: 'Ibarra Real Nova';
     font-size: 1.45em;
 }
 
-/* Navigaiton Bar */
 
-.navbar {
-    position: absolute;
-    background: rgba(46,41,41,0.9804);
-    height: 0.85rem;
-    top: 0;
-    left: 0;
-    width: 100%;
-    transition: height 400ms ease;
-}
-
-.navbar-nav {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-}
-
-.nav-item {
-    width: 100%;
-    margin-right: 1rem;
-    font-size: 0.5rem;
-}
-
-.nav-item:last-child {
-    margin-right: auto;
-}
-
-.nav-link {
-    text-decoration: none;
-    color: antiquewhite;
-}
-
-.link-text {
-    display: inline;
-    font-size: 0.5rem;
-}
-
-.read-btn {
+/* The 'Read' button and it's hover effect */
+.cover .read-btn {
     position: absolute;
     top: 74%;
     right: 42%;
@@ -162,7 +119,7 @@ body {
     padding-right: 95px;
 }
 
-.read-btn:hover {
+.cover .read-btn:hover {
     background-color: rgba(46,41,41,1) ;
     transition: 0.2s;
     border-color: #FFE5B4;
@@ -170,7 +127,7 @@ body {
     border-style: solid;
 }
 
-.read-btn:focus {
+.cover .read-btn:focus {
     background-color: rgba(46,41,41,1) ;
     outline-color: transparent;
     transition: 0.3s;
@@ -179,16 +136,41 @@ body {
     border-style: solid;
 }
 
+.gustave-dore {
+    position: absolute;
+    font-family: Garamond Libre;
+}
+
+.gustave-dore h2 {
+    color: rgba(46,41,41,1);
+    text-align: right;
+    margin-right: 7%;
+    margin-top: 3%;
+
+}
+.gustave-dore p {
+    color: black;
+    font-size: 0.65em;
+    text-align: left;
+    margin-left: 40%;
+    margin-right: 2%;
+}
+
+.gustave-dore .cover {
+    margin-top: 2%;
+    width: 750px;
+    height: 800px;
+    overflow: hidden;
+    float: left;
+}
+
+.gustave-dore .cover .img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
 /* For Small Screens */
 @media only screen and (min-width: 300px) and (max-width: 990px) {
-
-    html {
-	font-size: 25px;
-    }
-
-    main {
-	margin-top: 2.5rem;
-    }
 
     .cover {
 	width: 100%;
@@ -221,7 +203,6 @@ body {
 	margin-left: 35px;
 	margin-right: 10px;
 	display: block;
-
-}
+    }
 
 }
