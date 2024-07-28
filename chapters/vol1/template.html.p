@@ -6,7 +6,7 @@
     ◊; To use paths a bit smoothly
     ◊;(define path-prefix (if (string-contains (symbol->string here) "/") "../../../styles/" ""))
 
-    <link rel="stylesheet" type="text/css" href="../../../styles/css/tufte.css"/>
+    <link rel="stylesheet" type="text/css" href="../../../styles/css/modified-tufte.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
