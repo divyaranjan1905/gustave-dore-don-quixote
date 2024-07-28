@@ -4,11 +4,12 @@
     <meta charset="utf-8"/>
     <title>◊(hash-ref metas 'title)</title>
 
+    <link rel="stylesheet" type="text/css" href="../styles/css/main.css"/>
     <link rel="stylesheet" type="text/css" href="../styles/css/front.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
-  <body>
+  <body class="front">
     ◊(->html doc)
     <nav class="navbar">
       <ul class="navbar-nav">
