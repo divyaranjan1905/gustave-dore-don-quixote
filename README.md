@@ -31,7 +31,7 @@ Making entire books as websites has always been interesting to me, provided they
 - [The Stacks Project](https://stacks.math.columbia.edu/)
 - Donald Knuth's [_Digital Typography_](https://www-cs-faculty.stanford.edu/~knuth/dt.html)
 - Works of Leonardo da Vinci, and in particular this implementation of [_Codex Atlanticus_](https://codex-atlanticus.ambrosiana.it/#/)
-- Works of [Nicholas Rougeus](https://www.c82.net/), in particular [_Werner's Nomenclature of Colours_](https://www.c82.net/work?id=371), [_Byrne's Euclid_](https://www.c82.net/work?id=372) and the [_Iconographic Encylopaedia_](https://www.c82.net/work?id=388)
+- Works of [Nicholas Rougeux](https://www.c82.net/), in particular [_Werner's Nomenclature of Colours_](https://www.c82.net/work?id=371), [_Byrne's Euclid_](https://www.c82.net/work?id=372) and the [_Iconographic Encylopaedia_](https://www.c82.net/work?id=388)
 - Paul Regnard's [_Iconographie photographique de la Salpêtrière : service de M. Charcot_](https://archive.org/details/b21912865_0001/) and the later rendition by Didi-Huberman, [_Invention of Hysteria_](https://mitpress.mit.edu/9780262541800/invention-of-hysteria/)
 - Edward Brooke-Hitching's [_The Madman's Library_](https://www.goodreads.com/book/show/55278284-the-madman-s-library)
 - Jeremy Keith's [_Resilient Web Design_](https://resilientwebdesign.com/)
