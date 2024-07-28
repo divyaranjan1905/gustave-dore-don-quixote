@@ -18,7 +18,7 @@
 			 ◊div[#:class "cover"]{
 			 ◊img[#:src "img/cover.jpg" #:class "img"]{}}
 
-			 ◊h2{Reviving ◊i{Don Quixote}}
+			 ◊h2{Reviving Don Quixote}
 
 			 ◊p{Cervantes' classic tale has enchanted everyone for over centuries, but arguably among the most enchanted was Gustave Doré. Thus, the most celebrated illustrator of 19th century provided us with the most ◊i{definitive} visuals for ◊i{Don Quixote}. This revisualized edition of Doré attempts to revive those marvellous illustrations and provide the book with the typography that it deserves.}
 
