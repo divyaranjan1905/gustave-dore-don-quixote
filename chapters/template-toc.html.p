@@ -18,9 +18,9 @@
 	    <img src="../img/extras/logo.png">
 	  </a>
 	</li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">
-            <span class="link-text">Foreword</span>
+        <!-- <li class="nav-item"> -->
+        <!--   <a href="#" class="nav-link"> -->
+        <!--     <span class="link-text">Foreword</span> -->
           </a>
         </li>
       </ul>
