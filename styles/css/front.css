@@ -22,6 +22,10 @@ body.front {
 .cover {
     width: 100%;
     /* padding: 50px; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
     height: 100vh;
     position: relative;
     overflow: hidden;
@@ -41,17 +45,18 @@ body.front {
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
-    position: relative;
+    position: absolute;
     margin: 0 auto;
 }
 
 .cover-overlay {
     font-family: Elstob;
-    position: absolute;
+    position: relative;
     text-align: center;
-    top: 12%;
+    margin-top: 40px;
+    height: 80vh;
     width: 100%;
-    margin: 25px auto;
+    /* margin: 25px auto; */
     color: black;
 }
 
@@ -61,6 +66,9 @@ body.front {
     font-size: 2.25em;
     margin-bottom: 15px;
     text-align: center;
+    display: inline-block;
+    width: auto;
+    height: auto;
 }
 
 /* Creates Hovering Effect on Cover's Title */
@@ -145,6 +153,7 @@ body.front {
     margin-top: 3%;
 
 }
+
 .gustave-dore p {
     color: black;
     font-size: 0.65em;
@@ -167,6 +176,7 @@ body.front {
     height: 100%;
     object-fit: contain;
 }
+
 /* For Small Screens */
 @media only screen and (min-width: 300px) and (max-width: 990px) {
 
