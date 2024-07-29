@@ -42,9 +42,16 @@ h2 {
 }
 
 .volume-container .separator {
-    width: 10px;
+    width: 20px;
     height: 900px;
     background-color: rgba(46,41,41,0.7004);
+}
+
+.volume-container .cover:hover,
+.volume-container .cover:focus {
+    transition: 0.3s;
+    border-width: 25px;
+    border-color: rgba(46,41,41,0.5004);
 }
 
 .volumesbtn {
