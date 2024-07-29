@@ -39,6 +39,9 @@ h2 {
     background-size: cover;
     background-position: center;
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .volume-container .separator {
@@ -66,27 +69,14 @@ h2 {
     padding-bottom: 27px;
     padding-left: 95px;
     padding-right: 95px;
-
 }
 
 .volumesbtn:hover,
 .volumesbtn:focus {
     background-color: rgba(46,41,41,1) ;
-    transition: 0.15s;
+    transition: 0.10s;
     border-color: #FFE5B4;
     border-width: 3.5px;
     border-style: solid;
 
-}
-
-.volumesbtn-left {
-    top: 85%;
-    right: 59%;
-    position: absolute;
-}
-
-.volumesbtn-right {
-    top: 85%;
-    right: 15%;
-    position: absolute;
 }
