@@ -53,8 +53,9 @@ body.front {
     font-family: Elstob;
     position: relative;
     text-align: center;
-    margin-top: 40px;
-    height: 80vh;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    height: 85vh;
     width: 100%;
     /* margin: 25px auto; */
     color: black;
@@ -110,15 +111,16 @@ body.front {
 
 
 /* The 'Read' button and it's hover effect */
-.cover .read-btn {
-    position: absolute;
-    top: 74%;
-    right: 42%;
-    bottom: 13%;
+.cover-read-btn {
+    position: relative;
+    /* top: %; */
+    /* right: 42%; */
+    bottom: 200px;
     background-color: rgba(46,41,41,0.8804);
     font-family: EB Garamond;
     font-size: 0.75em;
     align-content: center;
+    align-self: center;
     color: #FFE5B4;
     border: none;
     padding-top: 27px;
@@ -178,39 +180,172 @@ body.front {
 }
 
 /* For Small Screens */
-@media only screen and (min-width: 300px) and (max-width: 990px) {
-
-    .cover {
-	width: 100%;
-	height: 65vh;
+@media (max-width: 1200px) {
+    html {
+        font-size: 60px;
     }
 
-    .cover-overlay {
-	top: 10%;
-	width: 100%;
+    .cover .read-btn {
+        font-size: 0.65em;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
 
+@media (max-width: 992px) {
+    html {
+        font-size: 50px;
     }
 
-    .cover-overlay p {
-	font-size: 1.25em;
-	color: black;
-	text-align: center;
-	margin-left: 10px;
+    .cover-overlay p,
+    .cover-overlay .subtitle {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .gustave-dore p {
+        font-size: 0.55em;
+        margin-left: 30%;
+    }
+
+    .cover .read-btn {
+        font-size: 0.6em;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 40px;
     }
 
     .cover-overlay h1 {
-	font-size: 2.5em;
-	color: antiquewhite;
-	text-align: center;
-    }
-    .cover-overlay .subtitle {
-	color: black;
-	font-family: Elstob;
-	font-size: 1.25em;
-	text-align: center;
-	margin-left: 35px;
-	margin-right: 10px;
-	display: block;
+        font-size: 1.8em;
     }
 
+    .cover-overlay h2 {
+        font-size: 2.5em;
+    }
+
+    .cover-overlay p,
+    .cover-overlay .subtitle {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .gustave-dore p {
+        font-size: 0.5em;
+        margin-left: 20%;
+    }
+
+    .cover .read-btn {
+        font-size: 0.55em;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    html {
+        font-size: 30px;
+    }
+
+    .cover-overlay h1 {
+        font-size: 1.5em;
+    }
+
+    .cover-overlay h2 {
+        font-size: 2em;
+    }
+
+    .cover-overlay p,
+    .cover-overlay .subtitle {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .gustave-dore p {
+        font-size: 0.45em;
+        margin-left: 10%;
+    }
+
+    .cover .read-btn {
+        font-size: 0.5em;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (max-width: 400px) {
+    html {
+        font-size: 15px;
+    }
+
+    body.front {
+	font-size: 35px;
+    }
+
+    .cover {
+	width: 100%;
+	height: 60vh;
+	align-items: center;
+    }
+
+    .cover-overlay h1 {
+        font-size: 1.2em;
+    }
+
+    .cover-overlay p,
+    .cover-overlay .subtitle {
+	margin-top: 10px;
+	font-size: 0.95em;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .gustave-dore {
+	width: 100%;
+	height: 80vh;
+    }
+
+    .gustave-dore .cover,.img {
+	margin-top: 10px;
+	width: 40%;
+	height: 22vh;
+	padding-left: 5px;
+	padding-right: 8px;
+	/* padding-bottom: 2px; */
+	object-fit: contain;
+    }
+
+    .gustave-dore h2 {
+	font-size: 0.85em;
+	text-align: center;
+	margin-right: 5px;
+    }
+
+    .gustave-dore p {
+        font-size: 0.55em;
+        margin-left: 10px;
+	text-align: justify;
+	margin-right: 15px;
+    }
+
+    .cover-read-btn {
+	bottom: 220px;
+        font-size: 0.45em;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }

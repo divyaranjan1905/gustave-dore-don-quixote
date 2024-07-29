@@ -12,7 +12,7 @@
 					◊h1{◊span[#:class "initials"]{D}ON ◊span[#:class "initials"]{Q}UIXOTE}
 		       		    	◊span[#:class "subtitle"]{◊i{Of} ◊i{La Mancha}}}
 					◊a[#:href "./chapters/toc.html" #:class "link"]{
-					◊button[#:type "button" #:class "read-btn"]{Read}}}
+					◊button[#:type "button" #:class "cover-read-btn"]{Read}}}
 
 	◊div[#:class "gustave-dore"]{
 			 ◊div[#:class "cover"]{

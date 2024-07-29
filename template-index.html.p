@@ -14,7 +14,7 @@
     <nav class="navbar">
       <ul class="navbar-nav">
 	<li class="nav-item">
-	  <a href="./index.html" class="nav-link">
+	  <a href="./index.html" class="nav-img nav-img-fit">
 	    <img src="img/extras/logo.png">
 	  </a>
 	</li>

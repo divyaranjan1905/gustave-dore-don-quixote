@@ -66,6 +66,21 @@ html::-webkit-scrollbar {
     color: antiquewhite;
 }
 
+.nav-img {
+    text-decoration: none;
+    color: antiquewhite;
+    overflow: hidden;
+    /* float: center; */
+    width: auto;
+    height: 0.85rem;
+}
+
+.nav-img-fit {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
 .link-text {
     display: inline;
     font-size: 0.5rem;
@@ -73,12 +88,21 @@ html::-webkit-scrollbar {
 
 /* Responsive */
 
-@media only screen and (min-width: 300px) and (max-width: 990px) {
-    html {
-	font-size: 25px;
+
+@media (max-width: 400px) {
+    main {
+	margin-top: 2rem;
     }
 
-    main {
-	margin-top: 2.5rem;
+    .navbar,
+    .navbar-nav,
+    .nav-img {
+	height: 2rem;
+    }
+
+    .nav-img {
+	height: 2rem;
+	width: 2rem;
+	/* transform: scale(0.70); */
     }
 }
