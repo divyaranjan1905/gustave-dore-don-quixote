@@ -116,7 +116,7 @@ body.front {
     /* top: %; */
     /* right: 42%; */
     bottom: 200px;
-    background-color: rgba(46,41,41,0.8804);
+    background-color: rgba(46,41,41,0.8004);
     font-family: EB Garamond;
     font-size: 0.75em;
     align-content: center;
@@ -179,7 +179,8 @@ body.front {
     object-fit: contain;
 }
 
-/* For Small Screens */
+/* Responsive */
+
 @media (max-width: 1200px) {
     html {
         font-size: 60px;
@@ -296,12 +297,17 @@ body.front {
 
     .cover {
 	width: 100%;
-	height: 60vh;
+	height: 70vh;
 	align-items: center;
     }
 
     .cover-overlay h1 {
         font-size: 1.2em;
+    }
+
+    .cover-overlay h1:hover {
+	font-size: 1.2em;
+	color: #FFE5B4;
     }
 
     .cover-overlay p,
@@ -341,11 +347,32 @@ body.front {
     }
 
     .cover-read-btn {
-	bottom: 220px;
+	bottom: 70px;
         font-size: 0.45em;
-        padding-top: 8px;
-        padding-bottom: 8px;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 35px;
+        padding-right: 35px;
     }
+}
+
+@media (max-width: 330px) {
+
+    .cover-overlay h1 {
+        font-size: 1em;
+    }
+
+    .cover-overlay h1:hover {
+	font-size: 1em;
+	color: #FFE5B4;
+    }
+
+    .cover-overlay p,
+    .cover-overlay .subtitle {
+	margin-top: 10px;
+	font-size: 0.75em;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
 }
