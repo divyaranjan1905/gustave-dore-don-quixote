@@ -258,8 +258,21 @@ body.front {
         font-size: 30px;
     }
 
+    body.front {
+	font-size: 40px;
+    }
+
+    .cover {
+	width: 100%;
+    }
+
     .cover-overlay h1 {
-        font-size: 1.5em;
+        font-size: 1.25em;
+    }
+
+    .cover-overlay h1:hover {
+	font-size: 1.25em;
+	color: #FFE5B4;
     }
 
     .cover-overlay h2 {
@@ -268,21 +281,45 @@ body.front {
 
     .cover-overlay p,
     .cover-overlay .subtitle {
+	font-size: 1em;
         margin-left: 20px;
         margin-right: 20px;
     }
 
-    .gustave-dore p {
-        font-size: 0.45em;
-        margin-left: 10%;
+    .gustave-dore {
+	width: 100%;
+	height: 80vh;
     }
 
-    .cover .read-btn {
-        font-size: 0.5em;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 40px;
-        padding-right: 40px;
+    .gustave-dore .cover,.img {
+	margin-top: 10px;
+	width: 40%;
+	height: 22vh;
+	padding-left: 5px;
+	padding-right: 8px;
+	/* padding-bottom: 2px; */
+	object-fit: contain;
+    }
+
+    .gustave-dore h2 {
+	font-size: 0.85em;
+	text-align: center;
+	margin-right: 5px;
+    }
+
+    .gustave-dore p {
+        font-size: 0.55em;
+        margin-left: 10px;
+	text-align: justify;
+	margin-right: 15px;
+    }
+
+    .cover-read-btn {
+        font-size: 0.65em;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 45px;
+        padding-right: 45px;
     }
 }
 
