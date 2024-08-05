@@ -21,7 +21,7 @@ To achieve the above, we use the magic of Pollen where "the book is a program" a
 ## Screenshots
 
 ### Main Table of Conents:
-![img/extras/main-toc.png](img/extras/web.png "Main TOC of Volumes")
+![img/extras/main-toc.png](img/extras/main-toc.png "Main TOC of Volumes")
 
 ## Inspirations
 
