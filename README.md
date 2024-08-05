@@ -18,6 +18,11 @@ The goals of this project are the following:
 
 To achieve the above, we use the magic of Pollen where "the book is a program" and can be configured according to your imagination while still being consistently ported in the desired formats.
 
+## Screenshots
+
+### Main Table of Conents:
+![img/extras/main-toc.png](img/extras/web.png "Main TOC of Volumes")
+
 ## Inspirations
 
 A direct inspiration for taking such an approach were the projects that have been produced using Pollen, primarily Matthew's books such as [_Beautiful Racket_](https://beautifulracket.com/) and [_Practical Typography_](https://practicaltypography.com/). The "publishing nerd" [Joel Duck's](https://joeldueck.com/) [_Secretary of Foreign Relations_](https://thelocalyarn.com/excursus/secretary/) was also a constant source of learning how to implement some basic things using Pollen. Moreover, his essay on web books titled [_The Unbearable Lightness of Web Pages_](https://thelocalyarn.com/excursus/secretary/posts/web-books.html) is worth reading even if you have no interest in Pollen.
