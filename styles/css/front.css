@@ -129,12 +129,12 @@ body.front {
     padding-right: 95px;
 }
 
-.cover .read-btn:hover,
-.read-btn:focus {
+.cover-read-btn:hover,
+.cover-read-btn:focus {
     background-color: rgba(46,41,41,1) ;
     transition: 0.2s;
     border-color: #FFE5B4;
-    border-width: 3.5px;
+    border-width: 2.5px;
     border-style: solid;
 }
 
@@ -225,32 +225,55 @@ body.front {
         font-size: 40px;
     }
 
-    .cover-overlay h1 {
-        font-size: 1.8em;
+    body.front {
+	font-size: 35px;
     }
 
-    .cover-overlay h2 {
-        font-size: 2.5em;
+    .cover-overlay h1 {
+        font-size: 1.85em;
     }
 
     .cover-overlay p,
     .cover-overlay .subtitle {
+	font-size: 1.15em;
         margin-left: 30px;
         margin-right: 30px;
     }
 
+    .cover-overlay h1:hover {
+	font-size: 1.5em;
+	color: #FFE5B4;
+    }
+
+    .gustave-dore {
+	width: 100%;
+	height: 80vh;
+    }
+
     .gustave-dore p {
-        font-size: 0.5em;
+        font-size: 0.65em;
         margin-left: 20%;
     }
 
-    .cover .read-btn {
-        font-size: 0.55em;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        padding-left: 50px;
-        padding-right: 50px;
+    .cover-read-btn {
+        font-size: 0.75em;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
+
+    .gustave-dore .cover,.img {
+	margin-top: 10px;
+	width: 40%;
+	height: 55vh;
+	object-fit: contain;
+    }
+
+    .gustave-dore h2 {
+	font-size: 1.25em;
+    }
+
 }
 
 @media (max-width: 576px) {
@@ -366,7 +389,6 @@ body.front {
 	height: 22vh;
 	padding-left: 5px;
 	padding-right: 8px;
-	/* padding-bottom: 2px; */
 	object-fit: contain;
     }
 
