@@ -146,6 +146,7 @@ body.front {
 .gustave-dore {
     position: absolute;
     font-family: Garamond Libre;
+    height: 100vh;
 }
 
 .gustave-dore h2 {
